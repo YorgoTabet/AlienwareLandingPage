@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+#nav-bar{
+    border-bottom: 1px solid black;
+}
+#content{
+    margin-top:75px;
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    background-color: black;
+    height: 1px;
+}
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
+#features{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   justify-content: space-between;
+   
+}
+.card{
+    height: 400px;
+    margin: auto;
+    width: 300px;
+    margin-bottom: 30px;
+}
+#showcase{
+    
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+#showcase>p{
+    color: white;
+    background-color: black;
+}
+video{
+    width: 100%;
+}
+#form{
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#submit{
+    border: 1px solid black ;
+}
+#pricing .card{
+    height: auto;
+}
+.preorder{
+    display: block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-family: 'Cantarell', sans-serif;
+   
+}
+.card-body{
+    text-align: center;
+}
